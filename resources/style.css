@@ -1,0 +1,157 @@
+body{
+  height: 2000px;
+  font-size: 22px;
+	font-family: helvetica;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+  margin: 0px;
+}
+
+header{
+  background-color: black;
+  z-index: 10;
+  top: 0;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+nav span{
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+nav{
+  flex-grow: 1;
+  text-align: right;
+}
+
+.logo{
+  display: flex;
+	justify-content: center;
+}
+
+.logo img{
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.container1 h4{
+  margin-top: 0;
+}
+
+a{
+  text-decoration: underline;
+  color: seashell;
+}
+
+.container1 h2, h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 6px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: black;
+}
+
+
+.main{
+  z-index: 9;
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+#Featured-Tea{
+  margin: auto;
+  padding-top: 70px;
+}
+
+#Featured-Tea h2{
+  justify-content: center;
+  display: flex;
+}
+
+.loc h2{
+  padding-top: 50px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#Mission{
+  height: 700px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
+
+#wrapimages{
+  flex-wrap: wrap;
+}
+
+#Locations{
+  margin: auto;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  height: 600px;
+}
+
+.boximages img{
+  height: 200px;
+  width: 300px;
+}
+
+.boximages span{
+  display: flex;
+  justify-content: center;
+}
+
+.container3{
+  justify-content: space-around;
+  display: flex;
+  margin: auto;
+}
+
+.blackbox p{
+  display: flex;
+  justify-content: space-around;
+}
+
+.boximages span{
+  padding-top: 10px;
+}
+
+.blackbox{
+  opacity: 1;
+  padding-right: 15px 20px;
+  text-align: center;
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+.footer{
+  height: 200px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.footersig{
+text-align: left;
+margin-left: 20px;
+font-family: helvetica;
+}
